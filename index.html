@@ -106,9 +106,12 @@
                                         <div class="swiper-slide">
                                             <img src="f3.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;">
                                         </div>
-                                        <div class="swiper-slide">
-                                            <img src="f4.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;">
-                                        </div>
+                                        <div class="swiper-slide"><img src="f4.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;"></div>
+                                        <div class="swiper-slide"><img src="f5.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;"></div>
+                                        <div class="swiper-slide"><img src="f6.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;"></div>
+                                        <div class="swiper-slide"><img src="f7.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;"></div>
+                                        <div class="swiper-slide"><img src="f8.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;"></div>
+                                        <div class="swiper-slide"><img src="f9.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;"></div>
 
 
                                     </div>
@@ -123,10 +126,10 @@
             </div>
             
             
-            <div class="pst_absolute w_100" style="height: 150px; bottom: 28%;">
+            <div class="pst_absolute w_100" style="height: 150px; bottom: 27.5%;">
                 <center class="h_100" style="display: flex;">
-                    <a class="w_50 h_100 d_block" href="https://maps.app.goo.gl/fjEwMsP4qpcXa4Ui8" target="_blank"></a>
-                    <a class="w_50 h_100 d_block" href="https://maps.app.goo.gl/zSe7PfYYWhS45rLZ8" target="_blank"></a>
+                    <a class="w_100 h_100 d_block" href="https://maps.app.goo.gl/NwGQnVBm4YiAX5zp6" target="_blank"></a>
+                    <!--<a class="w_50 h_100 d_block" href="https://maps.app.goo.gl/zSe7PfYYWhS45rLZ8" target="_blank"></a>-->
                </center>
             </div>
 
@@ -204,7 +207,7 @@ audio.volume = 0.5;
 
 
 
-var targetDate = new Date("Jul 31, 2026 20:00:00").getTime();
+var targetDate = new Date("Jul 18, 2026 20:00:00").getTime();
 var countdownTimer = countdown(
     targetDate,
     function(ts) {
@@ -385,7 +388,7 @@ const swiper = new Swiper('.swiper', {
 
 document.getElementById("sello").addEventListener("click", function() {
 
-    //audio.play();
+    audio.play();
 
     $('body').css('overflow-y', 'auto');
     document.querySelector(".protector").style.display = "none";
@@ -393,9 +396,9 @@ document.getElementById("sello").addEventListener("click", function() {
     $('#sound').find('img').attr('src', 'sound.svg');
     muted = !muted;
 
-    //$(window).scrollTop(0);
+    $(window).scrollTop(0);
 });
-//$(window).scrollTop(0);
+$(window).scrollTop(0);
 
 
 
